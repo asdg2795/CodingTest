@@ -6,10 +6,6 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Main {
-    public static int MenOfPassion(int[] A, int n){
-        int i = n/2;
-        return A[i];
-    }
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //      StringBuilder sb = new StringBuilder();
@@ -28,9 +24,6 @@ public class Main {
          */
 
         int N = Integer.parseInt(br.readLine());
-        int[] A = new int[N];
-
-        MenOfPassion(A, N);
 
         System.out.println(1);
         System.out.println(0);
